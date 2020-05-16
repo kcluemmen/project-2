@@ -1,0 +1,94 @@
+/* Styles for all text*/
+body {
+  color: rgb(0, 0, 0);
+  background-image: url("https://cdn.glitch.com/52da631b-b519-48fa-982a-8b0150a9d54d%2Fphoto.jpg?v=1587520494797");
+  background-attachment: fixed;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Styles for the intro div */
+
+#intro {
+  min-height: 30vh;
+  width: 60%;
+  padding: 2%;
+  margin: auto;
+  background-color: rgba(17, 1, 1, 0.92);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+
+h1,h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+#byline {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.date {
+  font-size: 14px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+
+/* Styles for the parallax div */
+
+p {
+  font-size: 16px;
+  font-family: 'EB Garamond',serif;
+}
+
+#parallax {
+  width: 60%;
+  margin: auto;
+  padding: 2%;
+  background-color: rgb(255, 255, 255, 0.92); /*.92 is the opacity level*/
+}
+
+/* Styles for the footer*/
+footer {
+    color: rgb(255, 255, 255);
+    font-family: "Noto Sans", sans-serif;
+    width: 60%;
+    margin: auto;
+    padding: 2%;
+    text-shadow: 2px 2px 5px black;
+    background-color:rgba(17, 1, 1, 0.92);
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  margin: auto;
+  float: right;
+  bottom: 5px;
+}
+
+h4 {
+    position: relative;
+    margin: auto;
+}
+
+/* --- Other Stuff --- */
+
+.pcut {
+  font-size: 12px;
+  font-family: "Opens", sans-serif;
+  text-align: right;
+}
+
+a {
+  color: rgb(0, 0, 128);
+}
+
+.gap {
+  min-height: 100vh;
+}
